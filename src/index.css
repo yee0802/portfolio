@@ -19,3 +19,18 @@ body {
   --lightgray: #eee;
   --black: #121212;
 }
+
+main {
+  display: grid;
+  justify-items: center;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: "Noto Serif Armenian";
+  font-size: 1.68rem;
+}
+
+h2 {
+  font-family: "Noto Serif Armenian";
+}
