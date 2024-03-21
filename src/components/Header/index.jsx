@@ -1,3 +1,5 @@
+import linkedinIcon from "../../assets/icons/linkedin.svg";
+import githubIcon from "../../assets/icons/github.svg";
 import "./index.css";
 
 export default function Header() {
@@ -15,6 +17,24 @@ export default function Header() {
           </li>
         </ul>
       </nav>
+
+      <section className="header__links">
+        <a
+          className="header__link"
+          href="https://github.com/yee0802"
+          target="_blank"
+        >
+          <img src={githubIcon} alt="GitHub Logo" />
+        </a>
+
+        <a
+          className="header__link"
+          href="https://linkedin.com/"
+          target="_blank"
+        >
+          <img src={linkedinIcon} alt="LinkedIn logo" />
+        </a>
+      </section>
     </header>
   );
 }
