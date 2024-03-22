@@ -1,0 +1,29 @@
+.about-me {
+  margin-top: 78px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  column-gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-me > img {
+  width: 340px;
+  height: 320px;
+  border-radius: 12px;
+}
+
+.about-me__info__container {
+  position: relative;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  margin-right: 2rem;
+  row-gap: 10px;
+}
+
+.about-me__info__container > p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  max-width: 750px;
+  color: var(--gray);
+}
