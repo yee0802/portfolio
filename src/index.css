@@ -22,7 +22,6 @@ body {
 
 main {
   display: grid;
-  justify-items: center;
   background-color: #fff;
 }
 
