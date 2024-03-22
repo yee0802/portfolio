@@ -1,0 +1,16 @@
+.my-projects {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 50px 1fr;
+}
+
+.my-projects > h1 {
+  text-align: center;
+}
+
+.my-projects__gallery {
+  position: relative;
+  height: 400px;
+  display: grid;
+  overflow: hidden;
+}
