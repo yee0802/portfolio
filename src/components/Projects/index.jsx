@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ProjectList from "../ProjectList";
 import "./index.css";
 
 export default function Projects() {
@@ -45,7 +46,9 @@ export default function Projects() {
     <section id="projects" className="my-projects card">
       <h1>My Projects</h1>
 
-      <section className="my-projects__gallery"></section>
+      <section className="my-projects__gallery">
+        <ProjectList />
+      </section>
     </section>
   );
 }
