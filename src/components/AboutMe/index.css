@@ -27,3 +27,30 @@
   max-width: 750px;
   color: var(--gray);
 }
+
+.resume__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: var(--black);
+  color: #fff;
+  border-radius: 12px;
+  width: 350px;
+  max-height: 70px;
+}
+
+.resume__box > button {
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.12rem;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+
+.resume__box > button:hover {
+  transform: scale(1.12, 1.12);
+}

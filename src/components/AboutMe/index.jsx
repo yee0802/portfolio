@@ -15,6 +15,11 @@ export default function AboutMe() {
           rigorous 6-month intensive bootcamp, I am eager to contribute my
           creativity and technical prowess to your team.
         </p>
+
+        <div className="resume__box">
+          <p>For more details</p>
+          <button>Download CV</button>
+        </div>
       </article>
     </section>
   );
