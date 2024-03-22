@@ -1,0 +1,27 @@
+.my_projects__gallery__next {
+  right: 0;
+}
+
+.my_projects__gallery__prev {
+  left: 0;
+}
+
+.my_projects__gallery__next,
+.my_projects__gallery__prev {
+  top: 40%;
+  position: absolute;
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 0.2rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  z-index: 9999;
+}
+
+.my_projects__gallery__next:hover,
+.my_projects__gallery__prev:hover {
+  transform: scale(1.26, 1.26);
+}
