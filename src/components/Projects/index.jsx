@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectList from "../ProjectList";
+import ProjectsBtns from "../ProjectsBtns";
 import "./index.css";
 
 export default function Projects() {
@@ -48,6 +49,11 @@ export default function Projects() {
 
       <section className="my-projects__gallery">
         <ProjectList />
+
+        <ProjectsBtns
+          activeProject={activeProject}
+          setActiveProject={setActiveProject}
+        />
       </section>
     </section>
   );
