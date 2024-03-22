@@ -5,35 +5,37 @@ import "./index.css";
 export default function Header() {
   return (
     <header className="header">
-      <h1>Kye</h1>
+      <section className="header__container">
+        <h1>Kye</h1>
 
-      <nav className="header__nav">
-        <ul className="header__nav__list">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-        </ul>
-      </nav>
+        <nav className="header__nav">
+          <ul className="header__nav__list">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          </ul>
+        </nav>
 
-      <section className="header__links">
-        <a
-          className="header__link"
-          href="https://github.com/yee0802"
-          target="_blank"
-        >
-          <img src={githubIcon} alt="GitHub Logo" />
-        </a>
+        <section className="header__links">
+          <a
+            className="header__link"
+            href="https://github.com/yee0802"
+            target="_blank"
+          >
+            <img src={githubIcon} alt="GitHub Logo" />
+          </a>
 
-        <a
-          className="header__link"
-          href="https://linkedin.com/"
-          target="_blank"
-        >
-          <img src={linkedinIcon} alt="LinkedIn logo" />
-        </a>
+          <a
+            className="header__link"
+            href="https://linkedin.com/"
+            target="_blank"
+          >
+            <img src={linkedinIcon} alt="LinkedIn logo" />
+          </a>
+        </section>
       </section>
     </header>
   );
