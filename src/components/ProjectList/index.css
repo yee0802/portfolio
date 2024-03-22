@@ -1,0 +1,6 @@
+.my-projects__gallery__list {
+  display: grid;
+  align-items: center;
+  list-style: none;
+  z-index: 100;
+}
