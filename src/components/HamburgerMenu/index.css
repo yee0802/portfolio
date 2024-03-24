@@ -1,0 +1,38 @@
+.hamburger__menu {
+  position: fixed;
+  margin-top: 78px;
+  width: 100%;
+  background-color: var(--black);
+  transform: translateY(-400px);
+  transition: all 330ms ease-in-out;
+  z-index: 101;
+}
+
+.hamburger__menu.active {
+  transform: translateY(0);
+}
+
+.hamburger__menu__list {
+  display: grid;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.hamburger__menu__list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hamburger__menu__list__item > a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.hamburger__menu__list__links {
+  gap: 10px;
+}
