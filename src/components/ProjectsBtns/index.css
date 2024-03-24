@@ -20,8 +20,3 @@
   transition: all 300ms ease;
   z-index: 9999;
 }
-
-.my_projects__gallery__next:hover,
-.my_projects__gallery__prev:hover {
-  transform: scale(1.26, 1.26);
-}
