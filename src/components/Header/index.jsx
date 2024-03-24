@@ -1,5 +1,6 @@
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import githubIcon from "../../assets/icons/github.svg";
+import hamburger from "../../assets/icons/hamburger.svg";
 import "./index.css";
 
 export default function Header() {
