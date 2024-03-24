@@ -38,6 +38,7 @@
   border-radius: 12px;
   width: 350px;
   max-height: 70px;
+  transition: width 300ms ease;
 }
 
 .resume__box > button {
@@ -48,9 +49,46 @@
   font-size: 1.12rem;
   padding: 0.25rem 0.75rem;
   cursor: pointer;
-  transition: transform 300ms ease;
+  transition: all 300ms ease;
 }
 
 .resume__box > button:hover {
   transform: scale(1.12, 1.12);
+}
+
+@media screen and (max-width: 900px) {
+  .about-me {
+    grid-template: 320px 1fr / 1fr;
+  }
+
+  .about-me__info__container {
+    margin: 0;
+    padding: 1rem 0;
+    justify-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .about-me__info__container > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-me {
+    grid-template: 270px 1fr / 1fr;
+  }
+  .about-me > img {
+    width: 270px;
+    height: 250px;
+  }
+
+  .resume__box {
+    width: 260px;
+    font-size: 0.8rem;
+  }
+
+  .resume__box > button {
+    font-size: 0.9rem;
+  }
 }
