@@ -19,3 +19,13 @@
 .footer > span {
   color: #fff;
 }
+
+@media screen and (max-width: 400px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .footer > span:nth-child(2) {
+    display: none;
+  }
+}
