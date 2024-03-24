@@ -1,5 +1,6 @@
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import githubIcon from "../../assets/icons/github.svg";
+import mailIcon from "../../assets/icons/mail.svg";
 import "./index.css";
 
 const handleHamburgerMenuClick = () => {
@@ -41,6 +42,10 @@ export default function HamburgerMenu() {
             target="_blank"
           >
             <img src={linkedinIcon} alt="LinkedIn logo" />
+          </a>
+
+          <a className="header__link" href="mailto:kyee8621@gmail.com">
+            <img src={mailIcon} alt="GitHub Logo" />
           </a>
         </li>
       </ul>
