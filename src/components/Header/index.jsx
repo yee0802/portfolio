@@ -3,6 +3,19 @@ import githubIcon from "../../assets/icons/github.svg";
 import hamburger from "../../assets/icons/hamburger.svg";
 import "./index.css";
 
+const toggleMenu = () => {
+  const hamburgerMenu = document.querySelector(".hamburger__menu");
+  const hamburgerIcon = document.querySelector(".header__hamburger > img");
+
+  hamburgerMenu.classList.toggle("active");
+
+  if (hamburgerMenu.classList.contains("active")) {
+    hamburgerIcon.classList.add("active");
+  } else {
+    hamburgerIcon.classList.remove("active");
+  }
+};
+
 export default function Header() {
   return (
     <header className="header">
@@ -36,6 +49,10 @@ export default function Header() {
           >
             <img src={linkedinIcon} alt="LinkedIn logo" />
           </a>
+
+          <button className="header__hamburger" onClick={toggleMenu}>
+            <img src={hamburger} alt="3 white bars" />
+          </button>
         </section>
       </section>
     </header>
