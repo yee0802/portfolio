@@ -7,7 +7,7 @@
 }
 
 .header__container {
-  padding: 1.2rem 0;
+  padding: 1.2rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,4 +53,35 @@
 .header__link > img {
   width: 30px;
   height: 30px;
+}
+
+.header__hamburger {
+  display: none;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.header__hamburger > img {
+  width: 32px;
+  transition: transform 300ms ease;
+}
+
+.header__hamburger > img.active {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__links > .header__link {
+    display: none;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
 }
