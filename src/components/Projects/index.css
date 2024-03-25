@@ -40,13 +40,13 @@
     left: calc(50% - 180px);
     height: 300px;
   }
+
+  .gallery__item__button > button {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .gallery__item__tags {
-    justify-content: center;
-  }
-
   .gallery__item__tag {
     font-size: 0.7rem;
   }
@@ -61,7 +61,10 @@
     width: 200px;
     font-size: 0.76rem;
   }
+
   .my-projects__gallery__list__item {
+    justify-items: center;
+    align-items: center;
     left: calc(50% - 116px);
   }
 
@@ -71,5 +74,10 @@
 
   .my_projects__gallery__prev {
     left: -4px;
+  }
+
+  .gallery__item__button > button {
+    padding: 0.3rem;
+    font-size: 1rem;
   }
 }
