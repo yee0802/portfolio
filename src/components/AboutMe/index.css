@@ -7,10 +7,26 @@
   justify-items: center;
 }
 
-.about-me > img {
+.about-me__image__container {
   width: 340px;
   height: 320px;
   border-radius: 12px;
+  background-image: url("../../assets/hero-small.png");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.about-me__image {
+  opacity: 0;
+  width: 340px;
+  height: 320px;
+  object-position: center;
+  transition: opacity 300ms ease-in-out;
+}
+
+.about-me__image.loaded {
+  opacity: 1;
 }
 
 .about-me__info__container {
@@ -41,7 +57,7 @@
   transition: width 300ms ease;
 }
 
-.resume__box > button {
+.resume__box-button > button {
   background-color: #fff;
   border: none;
   border-radius: 6px;
@@ -52,7 +68,7 @@
   transition: all 300ms ease;
 }
 
-.resume__box > button:hover {
+.resume__box-button > button:hover {
   transform: scale(1.12, 1.12);
 }
 
@@ -88,7 +104,7 @@
     font-size: 0.8rem;
   }
 
-  .resume__box > button {
+  .resume__box-button {
     font-size: 0.9rem;
   }
 }
