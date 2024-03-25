@@ -15,6 +15,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  transition: width 300ms ease;
 }
 
 .about-me__image {
@@ -94,7 +95,8 @@
   .about-me {
     grid-template: 270px 1fr / 1fr;
   }
-  .about-me > img {
+
+  .about-me__image__container {
     width: 265px;
     height: 250px;
   }
