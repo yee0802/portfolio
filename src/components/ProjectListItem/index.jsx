@@ -17,8 +17,8 @@ export default function ProjectListItem({ tags, title, desc, repo }) {
       </article>
 
       {repo && (
-        <a href={repo} target="_blank">
-          <button className="gallery__item__button">View more</button>
+        <a href={repo} target="_blank" className="gallery__item__button">
+          <button>View Project &#8594;</button>
         </a>
       )}
     </li>
