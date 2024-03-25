@@ -7,13 +7,13 @@ export default function ProjectList() {
       tags: ["Frontend"],
       title: "Spotify Layout",
       desc: "This project was an early challenge set during my enrollment of the bootcamp, I'm particularly proud of the progress I made during these times and this is a highlight of that period. I used HTML & CSS to implement a static layout of the Spotify Premium homepage.",
-      repo: null,
+      repo: "https://github.com/yee0802/html-spotify-challenge",
     },
     {
       tags: ["Frontend", "Backend"],
       title: "Stylish",
       desc: "My first full-stack application, Stylish is an e-commerce website with features that include ability to checkout with Stripe and user login/registration via email.",
-      repo: null,
+      repo: "https://github.com/yee0802/react-store",
     },
     {
       tags: ["???", "???", "???"],
