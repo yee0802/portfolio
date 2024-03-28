@@ -45,7 +45,7 @@ export default function Header() {
 
           <a
             className="header__link"
-            href="https://linkedin.com/"
+            href="https://linkedin.com/kye-yee"
             target="_blank"
           >
             <img src={linkedinIcon} alt="LinkedIn logo" />
