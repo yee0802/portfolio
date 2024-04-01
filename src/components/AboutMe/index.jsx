@@ -1,4 +1,5 @@
 import hero from "../../assets/hero.png";
+import cv from "../../../CV.pdf";
 import "./index.css";
 
 const loadImage = () => {
@@ -34,7 +35,7 @@ export default function AboutMe() {
 
         <div className="resume__box">
           <p>For more details</p>
-          <a href={hero} download="hero.png" className="resume__box-button">
+          <a href={cv} download="Kye-CV.pdf" className="resume__box-button">
             <button>Download CV</button>
           </a>
         </div>
