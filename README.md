@@ -11,7 +11,3 @@ A web portfolio desgined to showcase my projects and skills. It is built using R
 ## Credits
 
 Created by Kye Yee 2024
-
-## License
-
-This project is licensed under the MIT License, allowing for free use, modification, and distribution.
