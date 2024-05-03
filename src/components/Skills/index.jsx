@@ -8,6 +8,10 @@ import postgreSQL from "../../assets/icons/Postgresql_elephant.svg";
 import prisma from "../../assets/icons/prisma-3.svg";
 import jasmine from "../../assets/icons/jasmine-icon.svg";
 import git from "../../assets/icons/Git_icon.svg";
+import typescript from "../../assets/icons/TS_logo.svg";
+import mongodb from "../../assets/icons/mongodb.svg";
+import docker from "../../assets/icons/docker_logo.svg";
+import tailwindcss from "../../assets/icons/Tailwind_CSS_Logo.svg";
 import "./index.css";
 
 export default function Skills() {
@@ -26,6 +30,11 @@ export default function Skills() {
       title: "JavaScript",
       image: javascript,
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/",
+    },
+    {
+      title: "TypeScript",
+      image: typescript,
+      link: "https://www.typescriptlang.org/",
     },
     {
       title: "ReactJS",
@@ -61,6 +70,21 @@ export default function Skills() {
       title: "Git",
       image: git,
       link: "https://git-scm.com/",
+    },
+    {
+      title: "MongoDB",
+      image: mongodb,
+      link: "https://www.mongodb.com/",
+    },
+    {
+      title: "Docker",
+      image: docker,
+      link: "https://www.docker.com/",
+    },
+    {
+      title: "TailwindCSS",
+      image: tailwindcss,
+      link: "https://tailwindcss.com/",
     },
   ];
 
